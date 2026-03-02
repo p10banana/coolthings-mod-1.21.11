@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class Coolthings implements ModInitializer {
-	// blah blah
+	// blah blah blah
 	public static final String MOD_ID = "coolthings";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
