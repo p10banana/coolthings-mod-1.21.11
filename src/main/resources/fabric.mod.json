@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "coolthings",
+	"version": "${version}",
+	"name": "coolthings",
+	"description": "Random cool things that I program into Minecraft.",
+	"authors": [
+		"p10banana"
+	],
+	"contact": {
+		"homepage": "https://p10banana.net",
+		"sources": "https://github.com/p10banana/coolthings-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/coolthings/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.p10banana.coolthings.Coolthings"
+		],
+		"fabric-datagen": [
+			"net.p10banana.coolthings.CoolthingsDataGenerator"
+		],
+		"client": [
+			"net.p10banana.coolthings.CoolthingsClient"
+		]
+	},
+	"mixins": [
+		"coolthings.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
